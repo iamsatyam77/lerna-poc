@@ -1,0 +1,6 @@
+{
+  "name": "@lerna-poc/elem-a",
+  "version": "0.1.1",
+  "main": "index.js",
+  "license": "MIT"
+}

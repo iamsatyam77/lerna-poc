@@ -1,0 +1,9 @@
+{
+  "name": "@lerna-poc/comp-a",
+  "version": "0.1.1",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@lerna-poc/elem-a": "^0.1.1"
+  }
+}

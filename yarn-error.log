@@ -1,0 +1,45 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn install
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: connect ECONNREFUSED 127.0.0.1:4873
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1132:16)
+
+npm manifest: 
+  {
+    "name": "lerna-poc",
+    "version": "0.0.0",
+    "private": true,
+    "main": "index.js",
+    "license": "MIT",
+    "workspaces": [
+      "packages/*"
+    ],
+    "devDependencies": {
+      "cz-conventional-changelog": "^3.3.0",
+      "lerna": "^4.0.0"
+    },
+    "config": {
+      "commitizen": {
+        "path": "./node_modules/cz-conventional-changelog"
+      }
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

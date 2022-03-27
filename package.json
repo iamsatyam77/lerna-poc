@@ -1,0 +1,21 @@
+{
+  "name": "lerna-poc",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "scripts": {
+    "deploy:package": "npx lerna publish"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
